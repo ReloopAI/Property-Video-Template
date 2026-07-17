@@ -1,0 +1,18 @@
+{
+  "videos": [
+    {
+      "category": "animated-hook",
+      "path": "/absolute/path/to/01-hook.mp4"
+    },
+    {
+      "category": "agent-speaking",
+      "path": "/absolute/path/to/02-agent.mp4"
+    },
+    {
+      "category": "broll",
+      "path": "/absolute/path/to/03-broll.mp4"
+    }
+  ],
+  "output": "out/property-video.mp4",
+  "seed": "listing-001"
+}

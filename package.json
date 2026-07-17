@@ -1,0 +1,39 @@
+{
+  "name": "property-video-template",
+  "version": "1.0.0",
+  "description": "Vertical property-video template with categorized clips, cross-zoom transitions, and adaptive music",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.490",
+    "@remotion/media": "4.0.490",
+    "@remotion/studio": "4.0.490",
+    "@remotion/transitions": "4.0.490",
+    "mediabunny": "1.50.8",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.490",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.490",
+    "@types/node": "24.0.15",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "tsx": "4.20.3",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render:property": "node --import tsx scripts/render.ts",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src scripts && tsc"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}
